@@ -44,3 +44,5 @@ task :update_bundles do |t|
     puts "Done updating."
   end
 end
+
+task :default => [:update_bundles, :install_plugins]
