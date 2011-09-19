@@ -1,7 +1,9 @@
 require 'tmpdir'
 require 'fileutils'
 
-tmplugins_path = File.join(ENV['HOME'], 'Library', 'Application Support', 'TextMate', 'PlugIns')
+tmsupport_path = File.join(ENV['HOME'], 'Library', 'Application Support', 'TextMate')
+tmplugins_path = File.join(tmsupport_path, 'PlugIns')
+tmbundles_path = File.join(tmsupport_path, 'Bundles')
 
 plugin_repos = [
   'https://github.com/enormego/EGOTextMateFullScreen.git',
@@ -26,4 +28,8 @@ task :install_plugins do |t|
       puts "installed."
     end
   end
+end
+
+task :update_bundles do |t|
+  puts "coming soon"
 end
