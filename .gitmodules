@@ -1,3 +1,18 @@
 [submodule "Kaleidoscope.tmbundle"]
 	path = Kaleidoscope.tmbundle
 	url = git@github.com:ggilder/Kaleidoscope.tmbundle.git
+[submodule "HTML5.tmbundle"]
+	path = HTML5.tmbundle
+	url = https://github.com/subtleGradient/HTML5.tmbundle.git
+[submodule "javascript-tools.tmbundle"]
+	path = javascript-tools.tmbundle
+	url = https://github.com/subtleGradient/javascript-tools.tmbundle.git
+[submodule "json.tmbundle"]
+	path = json.tmbundle
+	url = https://github.com/textmate/json.tmbundle.git
+[submodule "transmit.tmbundle"]
+	path = transmit.tmbundle
+	url = https://github.com/textmate/transmit.tmbundle.git
+[submodule "coffee-script-tmbundle"]
+	path = coffee-script-tmbundle
+	url = https://github.com/jashkenas/coffee-script-tmbundle.git
