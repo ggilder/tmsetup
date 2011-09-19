@@ -13,6 +13,6 @@
 [submodule "transmit.tmbundle"]
 	path = transmit.tmbundle
 	url = https://github.com/textmate/transmit.tmbundle.git
-[submodule "coffee-script-tmbundle"]
-	path = coffee-script-tmbundle
+[submodule "coffee-script.tmbundle"]
+	path = coffee-script.tmbundle
 	url = https://github.com/jashkenas/coffee-script-tmbundle.git
