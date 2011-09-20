@@ -22,3 +22,6 @@
 [submodule "mediawiki.tmbundle"]
 	path = mediawiki.tmbundle
 	url = https://github.com/textmate/mediawiki.tmbundle.git
+[submodule "markdown.tmbundle"]
+	path = markdown.tmbundle
+	url = https://github.com/textmate/markdown.tmbundle
