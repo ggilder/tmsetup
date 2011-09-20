@@ -19,3 +19,6 @@
 [submodule "ruby-haml.tmbundle"]
 	path = ruby-haml.tmbundle
 	url = git://github.com/mattpolito/ruby-haml.tmbundle.git
+[submodule "mediawiki.tmbundle"]
+	path = mediawiki.tmbundle
+	url = https://github.com/textmate/mediawiki.tmbundle.git
