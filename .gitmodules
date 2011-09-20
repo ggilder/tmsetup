@@ -28,3 +28,6 @@
 [submodule "ruby.tmbundle"]
 	path = ruby.tmbundle
 	url = https://github.com/drnic/ruby-tmbundle.git
+[submodule "yaml.tmbundle"]
+	path = yaml.tmbundle
+	url = https://github.com/textmate/yaml.tmbundle.git
