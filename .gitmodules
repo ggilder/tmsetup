@@ -25,3 +25,6 @@
 [submodule "markdown.tmbundle"]
 	path = markdown.tmbundle
 	url = https://github.com/textmate/markdown.tmbundle
+[submodule "ruby.tmbundle"]
+	path = ruby.tmbundle
+	url = https://github.com/drnic/ruby-tmbundle.git
