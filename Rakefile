@@ -12,7 +12,8 @@ plugin_repos = [
 
 bundles_repo = 'git@github.com:ggilder/tmsetup.git'
 
-task :install_plugins do |t|
+desc "Install latest versions of TextMate plugins"
+task :plugins do |t|
   Dir.mktmpdir do |build_dir|
     puts "Installing TextMate Plugins..."
     puts "tmp dir #{build_dir}"
@@ -32,7 +33,8 @@ task :install_plugins do |t|
   end
 end
 
-task :update_bundles do |t|
+desc "Install or update TextMate bundles"
+task :bundles do |t|
   puts "Updating TextMate Bundles at #{tmbundles_path}..."
   git_branch = `cd "#{tmbundles_path}" && git symbolic-ref HEAD 2>/dev/null`
   if git_branch.empty?
@@ -45,4 +47,5 @@ task :update_bundles do |t|
   end
 end
 
-task :default => [:update_bundles, :install_plugins]
+desc "Install TextMate plugins and bundles"
+task :tmsetup => [:bundles, :plugins]
