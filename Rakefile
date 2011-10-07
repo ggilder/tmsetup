@@ -39,10 +39,10 @@ task :bundles do |t|
   git_branch = `cd "#{tmbundles_path}" && git symbolic-ref HEAD 2>/dev/null`
   if git_branch.empty?
     puts "No git repo in bundle path, setting up tracking..."
-    `cd "#{tmbundles_path}" && git init && git remote add origin #{bundles_repo} && git fetch origin && git branch -t bundles origin/bundles && git checkout -f bundles && git submodule update`
+    `cd "#{tmbundles_path}" && git init && git remote add origin #{bundles_repo} && git fetch origin && git branch -t bundles origin/bundles && git checkout -f bundles && git submodule update --init`
     puts "Done setting up."
   else
-    `cd "#{tmbundles_path}" && git pull && git submodule update`
+    `cd "#{tmbundles_path}" && git pull && git submodule update --init`
     puts "Done updating."
   end
 end
