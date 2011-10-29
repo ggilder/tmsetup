@@ -34,3 +34,6 @@
 [submodule "SCSS.tmbundle"]
 	path = SCSS.tmbundle
 	url = git://github.com/kuroir/SCSS.git
+[submodule "cucumber.tmbundle"]
+	path = cucumber.tmbundle
+	url = https://github.com/cucumber/cucumber-tmbundle.git
