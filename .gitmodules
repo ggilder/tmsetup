@@ -37,3 +37,6 @@
 [submodule "cucumber.tmbundle"]
 	path = cucumber.tmbundle
 	url = https://github.com/cucumber/cucumber-tmbundle.git
+[submodule "rspec.tmbundle"]
+	path = rspec.tmbundle
+	url = https://github.com/rspec/rspec-tmbundle.git
