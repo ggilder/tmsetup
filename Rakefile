@@ -45,6 +45,9 @@ task :bundles do |t|
     `cd "#{tmbundles_path}" && git pull && git submodule init && git submodule update`
     puts "Done updating."
   end
+  
+  # reload bundles
+  `osascript -e 'tell app "TextMate" to reload bundles'` if `ps -x` =~ /TextMate\.app/
 end
 
 desc "Install TextMate plugins and bundles"
